@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>MED KIT PROJECT</title>
+  </head>
+  <body>
+    <nav
+      class="navbar container d-flex justify-content-between my-4 sticky-top"
+    >
+      <img src="./Logo.jpg " alt="AN IMAGE" />
+      <div class="d-flex gap-4">
+        <h6 class="text-success">My appointments</h6>
+        <h6 class="text-danger">LogOut</h6>
+      </div>
+    </nav>
+
+    <section class="container woman-nurse ">
+      <h2>MAKE AN APPOINTMENT</h2>
+      <div class="d-flex justify-content-between my-4 rounded-pill">
+        <div class="col-1">
+          <label for="firstname"></label>
+          <input
+            type=" text "
+            id="firstname"
+            placeholder="First Name*"
+            required
+          />
+          <label for="lastname" class="rounded-pill"></label>
+          <input type="text" id="lastname" placeholder="Last Name*" required />
+          <label for="number"></label>
+          <input type="number" id="number" placeholder="Phone no*">
+
+          <label for="book appointment"></label><br />
+      <input type="datetime-local" id="dob" placeholder="Book An appointment" required />
+        </div>
+
+        <div>
+          <img src="./Rectangle 17.jpg" alt="nurse" />
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

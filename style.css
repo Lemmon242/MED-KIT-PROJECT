@@ -1,0 +1,15 @@
+.navbar {
+    background-color: white;
+}
+
+.woman-nurse{
+    background-color: rgb(222, 241, 249);
+}
+
+.radius{
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+body{
+    background-color: skyblue;
+}
